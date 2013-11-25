@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9F515D1843A44B00D31E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9F515C1843A44B00D31E83 /* UIKit.framework */; };
+		5F9F515F1843A44B00D31E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9F515E1843A44B00D31E83 /* Foundation.framework */; };
+		5F9F51611843A44B00D31E83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9F51601843A44B00D31E83 /* CoreGraphics.framework */; };
+		5F9F51671843A44B00D31E83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F9F51651843A44B00D31E83 /* InfoPlist.strings */; };
+		5F9F51691843A44B00D31E83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9F51681843A44B00D31E83 /* main.m */; };
+		5F9F516D1843A44B00D31E83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9F516C1843A44B00D31E83 /* AppDelegate.m */; };
+		5F9F516F1843A44B00D31E83 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9F516E1843A44B00D31E83 /* Default.png */; };
+		5F9F51711843A44B00D31E83 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9F51701843A44B00D31E83 /* Default@2x.png */; };
+		5F9F51731843A44B00D31E83 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9F51721843A44B00D31E83 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F9F51591843A44B00D31E83 /* nodyst-test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nodyst-test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9F515C1843A44B00D31E83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F9F515E1843A44B00D31E83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F9F51601843A44B00D31E83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F9F51641843A44B00D31E83 /* nodyst-test-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nodyst-test-app-Info.plist"; sourceTree = "<group>"; };
+		5F9F51661843A44B00D31E83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F9F51681843A44B00D31E83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F9F516A1843A44B00D31E83 /* nodyst-test-app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nodyst-test-app-Prefix.pch"; sourceTree = "<group>"; };
+		5F9F516B1843A44B00D31E83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F9F516C1843A44B00D31E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F9F516E1843A44B00D31E83 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5F9F51701843A44B00D31E83 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5F9F51721843A44B00D31E83 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F9F51561843A44B00D31E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9F515D1843A44B00D31E83 /* UIKit.framework in Frameworks */,
+				5F9F515F1843A44B00D31E83 /* Foundation.framework in Frameworks */,
+				5F9F51611843A44B00D31E83 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F9F51501843A44B00D31E83 = {
+			isa = PBXGroup;
+			children = (
+				5F9F51621843A44B00D31E83 /* nodyst-test-app */,
+				5F9F515B1843A44B00D31E83 /* Frameworks */,
+				5F9F515A1843A44B00D31E83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F9F515A1843A44B00D31E83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F9F51591843A44B00D31E83 /* nodyst-test-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9F515B1843A44B00D31E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F9F515C1843A44B00D31E83 /* UIKit.framework */,
+				5F9F515E1843A44B00D31E83 /* Foundation.framework */,
+				5F9F51601843A44B00D31E83 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F9F51621843A44B00D31E83 /* nodyst-test-app */ = {
+			isa = PBXGroup;
+			children = (
+				5F9F516B1843A44B00D31E83 /* AppDelegate.h */,
+				5F9F516C1843A44B00D31E83 /* AppDelegate.m */,
+				5F9F51631843A44B00D31E83 /* Supporting Files */,
+			);
+			path = "nodyst-test-app";
+			sourceTree = "<group>";
+		};
+		5F9F51631843A44B00D31E83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F9F51641843A44B00D31E83 /* nodyst-test-app-Info.plist */,
+				5F9F51651843A44B00D31E83 /* InfoPlist.strings */,
+				5F9F51681843A44B00D31E83 /* main.m */,
+				5F9F516A1843A44B00D31E83 /* nodyst-test-app-Prefix.pch */,
+				5F9F516E1843A44B00D31E83 /* Default.png */,
+				5F9F51701843A44B00D31E83 /* Default@2x.png */,
+				5F9F51721843A44B00D31E83 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F9F51581843A44B00D31E83 /* nodyst-test-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9F51761843A44B00D31E83 /* Build configuration list for PBXNativeTarget "nodyst-test-app" */;
+			buildPhases = (
+				5F9F51551843A44B00D31E83 /* Sources */,
+				5F9F51561843A44B00D31E83 /* Frameworks */,
+				5F9F51571843A44B00D31E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nodyst-test-app";
+			productName = "nodyst-test-app";
+			productReference = 5F9F51591843A44B00D31E83 /* nodyst-test-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F9F51511843A44B00D31E83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "David Corticchiato";
+			};
+			buildConfigurationList = 5F9F51541843A44B00D31E83 /* Build configuration list for PBXProject "nodyst-test-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F9F51501843A44B00D31E83;
+			productRefGroup = 5F9F515A1843A44B00D31E83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F9F51581843A44B00D31E83 /* nodyst-test-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F9F51571843A44B00D31E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9F51671843A44B00D31E83 /* InfoPlist.strings in Resources */,
+				5F9F516F1843A44B00D31E83 /* Default.png in Resources */,
+				5F9F51711843A44B00D31E83 /* Default@2x.png in Resources */,
+				5F9F51731843A44B00D31E83 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F9F51551843A44B00D31E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9F51691843A44B00D31E83 /* main.m in Sources */,
+				5F9F516D1843A44B00D31E83 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F9F51651843A44B00D31E83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F9F51661843A44B00D31E83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F9F51741843A44B00D31E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F9F51751843A44B00D31E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F9F51771843A44B00D31E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nodyst-test-app/nodyst-test-app-Prefix.pch";
+				INFOPLIST_FILE = "nodyst-test-app/nodyst-test-app-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F9F51781843A44B00D31E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nodyst-test-app/nodyst-test-app-Prefix.pch";
+				INFOPLIST_FILE = "nodyst-test-app/nodyst-test-app-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F9F51541843A44B00D31E83 /* Build configuration list for PBXProject "nodyst-test-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9F51741843A44B00D31E83 /* Debug */,
+				5F9F51751843A44B00D31E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9F51761843A44B00D31E83 /* Build configuration list for PBXNativeTarget "nodyst-test-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9F51771843A44B00D31E83 /* Debug */,
+				5F9F51781843A44B00D31E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F9F51511843A44B00D31E83 /* Project object */;
+}
