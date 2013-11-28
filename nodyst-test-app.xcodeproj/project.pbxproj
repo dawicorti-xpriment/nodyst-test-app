@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0FEEF61847F046005B131F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0FEEF51847F046005B131F /* JavaScriptCore.framework */; };
 		5F9F515D1843A44B00D31E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9F515C1843A44B00D31E83 /* UIKit.framework */; };
 		5F9F515F1843A44B00D31E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9F515E1843A44B00D31E83 /* Foundation.framework */; };
 		5F9F51611843A44B00D31E83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9F51601843A44B00D31E83 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F0FEEF51847F046005B131F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		5F9F51591843A44B00D31E83 /* nodyst-test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nodyst-test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9F515C1843A44B00D31E83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5F9F515E1843A44B00D31E83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0FEEF61847F046005B131F /* JavaScriptCore.framework in Frameworks */,
 				5F9F515D1843A44B00D31E83 /* UIKit.framework in Frameworks */,
 				5F9F515F1843A44B00D31E83 /* Foundation.framework in Frameworks */,
 				5F9F51611843A44B00D31E83 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +71,7 @@
 		5F9F515B1843A44B00D31E83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F0FEEF51847F046005B131F /* JavaScriptCore.framework */,
 				5F9F515C1843A44B00D31E83 /* UIKit.framework */,
 				5F9F515E1843A44B00D31E83 /* Foundation.framework */,
 				5F9F51601843A44B00D31E83 /* CoreGraphics.framework */,
@@ -280,6 +284,7 @@
 				5F9F51781843A44B00D31E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
